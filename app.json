@@ -1,44 +1,127 @@
 {
-  "name": " Movie Bot",
-  "description": "A Telegram bot for searching and sharing movies.",
-  "keywords": ["telegram", "bot", "python"],
-  "repository": "https://github.com/shivashish44/movies",
+  "name": "Movie Bot Premium",
+  "description": "🚀 Advanced Movie Bot with Premium System, Auto Expiry, Verification & Streams",
+  "keywords": ["telegram", "bot", "movie", "premium", "pyrogram", "mongodb"],
+  "repository": "https://github.com/MAHI-BEATS/moviesssss",
   "logo": "https://files.catbox.moe/zgy7zs.jpg",
   "env": {
     "API_ID": {
-      "description": "Your Telegram API ID. Get it from https://my.telegram.org",
+      "description": "Your Telegram API ID from https://my.telegram.org",
       "required": true
     },
     "API_HASH": {
-      "description": "Your Telegram API Hash. Get it from https://my.telegram.org",
+      "description": "Your Telegram API Hash from https://my.telegram.org",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Your Bot Token. Get it from @BotFather on Telegram",
+      "description": "Your Bot Token from @BotFather",
       "required": true
     },
     "OWNER_ID": {
-      "description": "Your Telegram User ID. Get it from @MissRose_bot by sending /id",
-      "required": true
+      "description": "Your Telegram User ID (get from @userinfobot)",
+      "required": true,
+      "value": "8418584090"
+    },
+    "ADMINS": {
+      "description": "Admin user IDs (space separated). Bot owner auto-added.",
+      "required": false,
+      "value": "8418584090"
     },
     "DATABASE_URI": {
-      "description": "Your MongoDB or PostgreSQL database URI (If your bot uses a database)",
-      "required": false
+      "description": "MongoDB URI (mongodb+srv://user:pass@cluster.mongodb.net/db)",
+      "required": true,
+      "value": "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0"
+    },
+    "DATABASE_NAME": {
+      "description": "MongoDB Database Name",
+      "required": true,
+      "value": "shivbots"
     },
     "LOG_CHANNEL": {
-      "description": "Channel ID for bot logs. Make sure the bot is an admin there. (Starts with -100)",
-      "required": false
+      "description": "Log channel ID (-100xxxxxxxxxx). Bot must be admin.",
+      "required": true,
+      "value": "-1003812209413"
+    },
+    "PREMIUM_UPI": {
+      "description": "Your UPI ID for premium payments (yourupi@paytm)",
+      "required": true,
+      "value": "shivashish-kumar@ptyes"
+    },
+    "PREMIUM_SUPPORT": {
+      "description": "Premium support link (Telegram channel/group)",
+      "required": true,
+      "value": "https://t.me/betabot_hub"
+    },
+    "PREMIUM_POINT": {
+      "description": "Points needed for free premium (default: 1500)",
+      "required": false,
+      "value": "1500"
+    },
+    "REF_PREMIUM": {
+      "description": "Referral premium days (default: 30)",
+      "required": false,
+      "value": "30"
+    },
+    "PORT": {
+      "description": "Port for web server (default: 5000)",
+      "required": false,
+      "value": "5000"
+    },
+    "IS_VERIFY": {
+      "description": "Enable verification system (true/false)",
+      "required": false,
+      "value": "true"
+    },
+    "TWO_VERIFY_GAP": {
+      "description": "2nd verification gap in seconds (default: 14400 = 4hrs)",
+      "required": false,
+      "value": "14400"
+    },
+    "THREE_VERIFY_GAP": {
+      "description": "3rd verification gap in seconds (default: 14400 = 4hrs)",
+      "required": false,
+      "value": "14400"
+    },
+    "SHORTENER_API": {
+      "description": "URL shortener API key",
+      "required": false,
+      "value": "3097623f852197a9ce40d1212aaa8bbf2803e799"
+    },
+    "SHORTENER_WEBSITE": {
+      "description": "URL shortener website",
+      "required": false,
+      "value": "omegalinks.in"
+    },
+    "URL": {
+      "description": "Your domain for streams (https://yourapp.herokuapp.com)",
+      "required": false,
+      "value": ""
     }
   },
   "buildpacks": [
     {
       "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
   ],
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "basic"
+      "size": "eco"
+    },
+    "web": {
+      "quantity": 1,
+      "size": "eco"
     }
-  }
+  },
+  "addons": [
+    {
+      "plan": "mongodb",
+      "options": {
+        "version": "4.4"
+      }
+    }
+  ]
 }
