@@ -7,9 +7,10 @@ class script(object):
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
 
 ɴᴏᴛᴇ - ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡᴏʀᴋ ɪɴ ʙᴏᴛʜ ɢʀᴏᴜᴘs ᴀɴᴅ ʙᴏᴛ ᴘᴍ</b>"""
+    
     FSUB_TXT = """<b>• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ 😗
-• ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ Gʀᴏᴜᴘ  😉
-• sᴇɴᴅ /fsub ʏᴏᴜʀ_ᴛᴀʀɢᴇᴛ_ᴄʜᴀᴛ_ɪᴅ
+- ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ Gʀᴏᴜᴘ  😉
+- sᴇɴᴅ /fsub ʏᴏᴜʀ_ᴛᴀʀɢᴇᴛ_ᴄʜᴀᴛ_ɪᴅ
 ᴇx: <code>/fsub -100xxxxxx</code>
 
 ɴᴏᴡ ɪᴛ's ᴅᴏɴᴇ.ɪ ᴡɪʟʟ ᴄᴏᴍᴘᴇʟ ʏᴏᴜʀ ᴜsᴇʀs ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ, ᴀɴᴅ I ᴡɪʟʟ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ғɪʟᴇs ᴜɴᴛɪʟ ʏᴏᴜʀ ᴜsᴇʀs ᴊᴏɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ᴄʜᴀɴɴᴇʟ.
@@ -28,8 +29,7 @@ class script(object):
 ᴀғᴛᴇʀ ᴛʜᴀᴛ, ᴛʀʏ ᴀᴄᴄᴇssɪɴɢ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ᴛʜᴇɴ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ "ᴛʀʏ ᴀɢᴀɪɴ" ʙᴜᴛᴛᴏɴ.
     </b>"""
     
-    TTS_TXT="""
-<b>• sᴇɴᴅ /tts ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ</b>"""
+    TTS_TXT="""<b>• sᴇɴᴅ /tts ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ</b>"""
 
     DISCLAIMER_TXT = """
 <b>ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
@@ -38,7 +38,6 @@ class script(object):
 
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/betabot_hub'> THE SHIV </a></b></blockquote>"""
     
-
     ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : SHIV😎\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/betabot_hub'> THE SHIV </a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]</b></blockquote>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
@@ -50,14 +49,12 @@ class script(object):
     CHANNELS = """
 <u>ᴏᴜʀ ᴀʟʟ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ᴄʜᴀɴɴᴇʟꜱ</u> 
 
-▫ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ᴀɴᴅ ᴏʟᴅ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ.
-▫ ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇꜱ ᴍᴏᴠɪᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ.
-▫ ᴀʟᴡᴀʏꜱ ᴀᴅᴍɪɴ ꜱᴜᴘᴘᴏʀᴛ.
-▫ 𝟸𝟺x𝟽 ꜱᴇʀᴠɪᴄᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ."""
+▫️ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ᴀɴᴅ ᴏʟᴅ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ.
+▫️ ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇꜱ ᴍᴏᴠɪᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ.
+▫️ ᴀʟᴡᴀʏꜱ ᴀᴅᴍɪɴ ꜱᴜᴘᴘᴏʀᴛ.
+▫️ 𝟸𝟺x𝟽 ꜱᴇʀᴠɪᴄᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ."""
 
-    LOGO = """
-
-BOT WORKING PROPERLY 🔥"""
+    LOGO = """\n\nBOT WORKING PROPERLY 🔥"""
     
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
@@ -65,16 +62,15 @@ BOT WORKING PROPERLY 🔥"""
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+🛠 Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v5.2 [ Sᴛᴀʙʟᴇ ]</code></b>"""
         
-    
     STATUS_TXT = """<b><u>🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃</u>
 
 » ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
 » ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
 » ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
 
-<u>🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳</u></b>
+<u>🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳</u>
 
 » ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
 » ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
@@ -110,12 +106,11 @@ User - {}"""
 🍿 Title: {title}
 🎃 Genres: {genres}
 📆 Year: {release_date}
-⭐ Rating: {rating} / 10</b>
+⭐️ Rating: {rating} / 10</b>
 """
 
     FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「......」</b>"""
     
-
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
@@ -128,8 +123,8 @@ User - {}"""
 
     I_CUD_NT = """😑 𝗛𝗲𝗹𝗹𝗼 {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 😞... 𝗰𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴."""
-    
+𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 😞... 𝗰𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴. OR SEND THE MOVIE NAME HERE -  @MOVIE_BOX_REQUEST_ROBOT . """ 
+
     CUDNT_FND = """🤧 𝗛𝗲𝗹𝗹𝗼 {}
 
 𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 𝗱𝗶𝗱 𝘆𝗼𝘂 𝗺𝗲𝗮𝗻 𝗮𝗻𝘆 𝗼𝗻𝗲 𝗼𝗳 𝘁𝗵𝗲𝘀𝗲 ?? 👇"""
@@ -138,15 +133,35 @@ User - {}"""
 
 <code>/font hi how are you</code></b>"""
     
+    # ========== PREMIUM PLAN TEXTS ==========
     PLAN_TEXT = """<b>ᴡᴇ ᴀʀᴇ ᴘʀᴏᴠɪᴅɪɴɢ ᴘʀᴇᴍɪᴜᴍ ᴀᴛ ᴛʜᴇ ʟᴏᴡᴇsᴛ ᴘʀɪᴄᴇs:
     
-2 ʀᴜᴘᴇᴇ ᴘᴇʀ ᴅᴀʏ 👻
-39 ʀᴜᴘᴇᴇs ғᴏʀ ᴏɴᴇ ᴍᴏɴᴛʜ 😚
-59 ʀᴜᴘᴇᴇs ғᴏʀ ᴛᴡᴏ ᴍᴏɴᴛʜs 😗
+💎 <u>2 ʀᴜᴘᴇᴇ ᴘᴇʀ ᴅᴀʏ</u> 👻
+💎 <u>39 ʀᴜᴘᴇᴇs ғᴏʀ 𝟷 ᴍᴏɴᴛʜ</u> 😚
+💎 <u>59 ʀᴜᴘᴇᴇs ғᴏʀ 𝟸 ᴍᴏɴᴛʜs</u> 😗
 
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ʙᴜʏɪɴɢ ↡↡↡
 </b>"""
     
+    MYPLAN_TXT = """<b>👋 ʜᴇʏ {}
+
+📊 <u>ʏᴏᴜʀ ᴘʟᴀɴ sᴛᴀᴛᴜs:</u>
+
+{} ✅
+Exp: <code>{}</code></b>"""
+
+    NO_PLAN_TXT = """<b>👋 ʜᴇʏ {}
+
+❌ <u>ɴᴏ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ғᴏᴜɴᴅ!</u>
+
+💎 <u>ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs:</u>
+🔹 𝟷 ᴅᴀʏ - ₹𝟸
+🔹 𝟷 ᴍᴏɴᴛʜ - ₹𝟹𝟿
+🔹 𝟸 ᴍᴏɴᴛʜs - ₹𝟻𝟿
+
+💰 ᴜsᴇ /plan ᴛᴏ ɢᴇᴛ ᴘʟᴀɴs</b>"""
+    
+    # ========== VERIFICATION TEXTS ==========
     VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {} {},
 
 📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ</u>
@@ -193,13 +208,12 @@ User - {}"""
 
 ɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ ꜰᴜʟʟ ᴅᴀʏ </b>"""
 
-    VERIFIED_LOG_TEXT = """<b><u>☄ ᴜsᴇʀ ᴠᴇʀɪꜰɪᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ☄</u>
+    VERIFIED_LOG_TEXT = """<b><u>☄️ ᴜsᴇʀ ᴠᴇʀɪꜰɪᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ☄️</u>
 
 ⚡️ ɴᴀᴍᴇ:- {} [ <code>{}</code> ] 
 📆 ᴅᴀᴛᴇ:- <code>{} </code></b>
 
 #verified_{}_completed"""
-
 
     MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
 **🍿 Title:** {title}
@@ -229,7 +243,7 @@ User - {}"""
 <blockquote>🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</blockquote>
 
 ❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ
-❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs   
+❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ   
 ❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ 
 ❏ ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ                         
 ❏ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs                           
@@ -257,11 +271,9 @@ User - {}"""
     
 <blockquote>🎖️ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</blockquote>
 
-! Cut this and Type here Your own plane for exl
+<b>1 Month - 80 Rupees</b>
 
-1 Month 80 Rupees
-
- <code> paste here your upi id </code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+<code>your-upi-id@paytm</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -271,100 +283,89 @@ User - {}"""
 ‼️ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
 </b>"""
 
+    # ========== ADMIN COMMANDS ==========
     ADMIN_CMD_TXT = """<b><blockquote>
 -------------User Premium------------
-➩ /add_premium {user ID} {Times} - Add a premium user
-➩ /remove_premium {user ID} - Remove a premium user
-➩ /add_redeem - Generate a redeem code
+➩ /add_premium {user ID} {Days} - Add premium user
+➩ /remove_premium {user ID} - Remove premium user
 ➩ /premium_users - List all premium users
-➩ /refresh - Refresh free trial for users
+➩ /myplan - Check your plan status
 -------------Update Channel----------
-➩ /set_muc {channel ID} - Set the movies update channel
+➩ /set_muc {channel ID} - Set movies update channel
 --------------PM Search--------------
 ➩ /pm_search_on - Enable PM search
 ➩ /pm_search_off - Disable PM search
 --------------Verify ID--------------
-➩ /verify_id - Generate a verification ID for group use only
+➩ /verify_id - Generate verification ID
 --------------Set Ads----------------
-➩ /set_ads {ads name}}#{Times}#{photo URL} - <a href="https://t.me/ll_DEVIL_SHIV_ll/11">Explain</a>
+➩ /set_ads {name}#{days}#{photo_url}
 ➩ /del_ads - Delete ads
 -------------Top Trending------------
-➩ /setlist {Mirzapur, Money Heist} - <a href=https://t.me/ll_DEVIL_SHIV_ll/10>Explain</a>
-➩ /clearlist - Clear all lists
+➩ /setlist {Movie1, Movie2}
+➩ /clearlist - Clear lists
 </blockquote></b>"""
 
     ADMIN_CMD_TXT2 = """<b><blockquote>
---------------Index File--------------
+--------------Index Files-------------
 ➩ /index - Index all files
---------------Leave Link--------------
-➩ /leave {group ID} - Leave the specified group
+--------------Leave Group-------------
+➩ /leave {group ID}
 -------------Send Message-------------
-➩ /send {user-name} - Use this command as a reply to any message
+➩ /send {user_id} - Reply to message
 ----------------Ban User---------------
-➩ /ban {user-name} - Ban user 
-➩ /unban {user-name} - Unban user
---------------Broadcast--------------
-➩ /broadcast - Broadcast a message to all users
-➩ /grp_broadcast - Broadcast a message to all connected groups
-
+➩ /ban {user_id} - Ban user
+➩ /unban {user_id} - Unban user
+--------------Broadcast----------------
+➩ /broadcast - All users
+➩ /grp_broadcast - All groups
 </blockquote></b>"""
     
     GROUP_TEXT = """<b><blockquote>
  --------------Set Verify-------------
-/set_verify {{website link}} {{website api}}
-/set_verify_2 {{website link}} {{website api}}
-/set_verify_3 {{website link}} {{website api}}
+/set_verify {website} {api}
+/set_verify_2 {website} {api}
+/set_verify_3 {website} {api}
 -------------Set Verify Time-----------
-/set_time_2 {{seconds}} Sᴇᴛ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
-/set_time_3 {{seconds}} Sᴇᴛ ᴛʜᴇ ᴛʜɪʀᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
---------------Verify On Off------------
-/verifyoff {{verify.off code}} - off verification <a href="https://t.me/ll_DEVIL_SHIV_ll">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ ᴄᴏᴅᴇ
-/verifyon - on verification 
+/set_time_2 {seconds}
+/set_time_3 {seconds}
+--------------Verify On/Off------------
+/verifyoff {code} - Disable verification
+/verifyon - Enable verification
 ------------Set File Caption-----------
-/set_caption - set coustom file caption 
------------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/betabot_hub/8">Example</a>
---------------Set Tutorial-------------
-/set_tutorial - set verification tutorial 
+/set_caption - Custom caption
+-----------Set IMDb Template-----------
+/set_template - IMDb template
 -------------Set Log Channel-----------
---> ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
+/set_log {channel_id}
 
-/set_log {{log channel id}}
----------------------------------------
-ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
-ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
-</blockquote>
-Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs😇</b>"""
+ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴀʟʟ ᴅᴇᴛᴀɪʟs ʙʏ /details
+</blockquote></b>"""
 
     SOURCE_TXT = """<b>
 NOTE:
-- Create Your Bot ◉› :<blockquote><a href="https://t.me/betabot_hub">the shiv</a></blockquote>
+- Create Your Bot ◉› <a href="https://t.me/betabot_hub">THE SHIV</a>
 
-developer : SHIV
+Developer: SHIV
 </b>""" 
+    
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
-/set_verify {website link} {website api}
-/set_verify_2 {website link} {website api}
-/set_verify_3 {website link} {website api}
+/set_verify {website} {api}
+/set_verify_2 {website} {api}
+/set_verify_3 {website} {api}
 -------------Set Verify Time-----------
-/set_time_2 {seconds} Sᴇᴛ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
-/set_time_3 {seconds} Sᴇᴛ ᴛʜᴇ ᴛʜɪʀᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
---------------Verify On Off------------
-/verifyoff {verify.off code} - off verification <a href="https://t.me/ll_DEVIL_SHIV_ll">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ ᴄᴏᴅᴇ
-/verifyon - on verification 
+/set_time_2 {seconds}
+/set_time_3 {seconds}
+--------------Verify On/Off------------
+/verifyoff {code} - Disable verification
+/verifyon - Enable verification
 ------------Set File Caption-----------
-/set_caption - set coustom file caption 
------------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/ll_DEVIL_SHIV_ll/8">Example</a>
---------------Set Tutorial-------------
-/set_tutorial - set verification tutorial 
+/set_caption - Custom caption
+-----------Set IMDb Template-----------
+/set_template - IMDb template
 -------------Set Log Channel-----------
---> ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
+/set_log {channel_id}
 
-/set_log {log channel id}
----------------------------------------
-ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
-ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
-</blockquote>
-Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/ll_DEVIL_SHIV_ll">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/MOVIE_BOX_REQUEST_ROBOT   ">ᴀᴅᴍɪɴ</a></b>"""
+ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴀʟʟ ᴅᴇᴛᴀɪʟs ʙʏ /details
+
+<a href="https://t.me/ll_DEVIL_SHIV_ll">ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ</a></b>"""
