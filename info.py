@@ -2,15 +2,15 @@ import re
 from os import environ, getenv
 from Script import script
 
-id_pattern = re.compile(r'^.\d+$')
+id_pattern = re.compile(r'^\.\d+$')
 
 def is_enabled(value, default):
-    if isinstance(value, bool): # Agar pehle se boolean hai
+    if isinstance(value, bool):
         return value
-    if not value: # Agar value empty hai
+    if not value:
         return default
     
-    value = str(value).lower().strip() # Saaf-suthri string
+    value = str(value).lower().strip()
     if value in ["true", "yes", "1", "enable", "y"]:
         return True
     elif value in ["false", "no", "0", "disable", "n"]:
@@ -31,6 +31,12 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003812209413'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+sLEVq3pYIiBiNGI9')
 CHANNELS = [int(ch) if id_pattern.search(ch.strip()) else ch.strip() for ch in environ.get('CHANNELS', '-1003812209413').split()]
 
+# --- 🔥 PREMIUM SYSTEM CONFIG 🔥 ---
+PREMIUM_POINT = int(environ.get('PREMIUM_POINT', '1500'))  # Points needed for premium
+REF_PREMIUM = int(environ.get('REF_PREMIUM', '30'))        # Days for referral premium
+PREMIUM_UPI = environ.get('PREMIUM_UPI', 'yourupi@paytm')  # Your UPI ID
+PREMIUM_SUPPORT = environ.get('PREMIUM_SUPPORT', 'https://t.me/betabot_hub')
+
 # --- Database ---
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shivbots:shivashish@cluster0.kdzu3eg.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
@@ -47,30 +53,29 @@ request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')
 
-# --- Verification Logic ---
-# Yahan error tha: 'IS_VERIFY' string pass ho raha tha jabki env var fetch karna chahiye
+# --- Verification ---
 IS_VERIFY = is_enabled(environ.get('IS_VERIFY'), True)
-
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
+
+# --- Shorteners (3 Levels) ---
 SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 
-# --- Lists & Qualities ---
+# --- Search Settings ---
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
 QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
 YEARS = [f'{i}' for i in range(202, 2002, -1)]
 SEASONS = [f'season {i}' for i in range(1, 23)]
-REF_PREMIUM = 30
-PREMIUM_POINT = 1500
 
-# --- Process Auth/Request IDs ---
+# --- Process Channels ---
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 
@@ -82,7 +87,7 @@ PAYPICS = (environ.get('PAYPICS', 'https://files.catbox.moe/q3mbng.png')).split(
 SUBSCRIPTION = environ.get('SUBSCRIPTION', 'https://files.catbox.moe/g5hjr7.png')
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
-# --- Auto Filter & Timers ---
+# --- Auto Features ---
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 AUTO_FILTER = is_enabled(environ.get('AUTO_FILTER'), True)
 IS_PM_SEARCH = is_enabled(environ.get('IS_PM_SEARCH'), False)
@@ -106,7 +111,16 @@ PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))
 ON_HEROKU = 'DYNO' in environ
 URL = environ.get("FQDN", "")
 
-# --- Final Settings Dictionary ---
+# --- Premium Plans Pricing ---
+PREMIUM_PLANS = {
+    1: 2,    # 1 day = ₹2
+    7: 10,   # 7 days = ₹10
+    30: 39,  # 30 days = ₹39
+    60: 59,  # 60 days = ₹59
+    90: 79   # 90 days = ₹79
+}
+
+# --- Final Settings ---
 SETTINGS = {
     'spell_check': SPELL_CHECK,
     'auto_filter': AUTO_FILTER,
@@ -121,10 +135,14 @@ SETTINGS = {
     'api_two': SHORTENER_API2,
     'log': LOG_VR_CHANNEL,
     'imdb': IMDB,
-    'link': LINK_MODE, 
-    'is_verify': IS_VERIFY, 
+    'link': LINK_MODE,
+    'is_verify': IS_VERIFY,
     'verify_time': TWO_VERIFY_GAP,
     'shortner_three': SHORTENER_WEBSITE3,
     'api_three': SHORTENER_API3,
-    'third_verify_time': THREE_VERIFY_GAP
+    'third_verify_time': THREE_VERIFY_GAP,
+    'premium_upi': PREMIUM_UPI,
+    'premium_support': PREMIUM_SUPPORT
 }
+
+print("✅ Config loaded with Premium System!")
